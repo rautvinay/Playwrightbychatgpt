@@ -33,8 +33,11 @@ test('verify user can remove backpack from cart', async ({ page }) => {
     await page.goto('/');
 
     await loginPage.login('standard_user', 'secret_sauce');
-
     const productPage = new ProductPage(page);
+
+await productPage.verifyBackpackCard();
+
+   // const productPage = new ProductPage(page);
 
     await productPage.addToCart();
 

@@ -9,4 +9,8 @@ export class ProductPage{
         async addToCart() {
         await this.addToCartButton.click();
         }
+        async verifyBackpackCard() {
+        await this.backpackCard.scrollIntoViewIfNeeded();
+        await this.backpackCard.highlight();
+        }
     }

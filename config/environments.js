@@ -1,0 +1,19 @@
+export const environments = {
+    dev: {
+        baseURL: 'https://www.saucedemo.com/',
+        username: 'standard_user',
+        password: 'secret_sauce'
+    },
+
+    qa: {
+        baseURL: 'https://www.saucedemo.com/',
+        username: 'standard_user',
+        password: 'secret_sauce'
+    },
+
+    stage: {
+        baseURL: 'https://www.saucedemo.com/',
+        username: 'standard_user',
+        password: 'secret_sauce'
+    }
+};
